@@ -201,6 +201,7 @@ hr {
   right: 2.3%;
   top: 35%;
   position: fixed;
+  z-index: 999;
   height: auto;
   height: auto;
   display: flex;
@@ -239,6 +240,7 @@ h2 {
   text-align: start;
   font-family: "rajdhani", "sans-serif";
   font-weight: medium;
+  text-transform: uppercase;
 }
 .contenu p.presentation {
   width: 85%;
@@ -356,4 +358,53 @@ h2 {
 }
 .bandeAnnonce img {
   width: 85%;
+}
+/* -----------------Formulaire de contact-------------- */
+.FormulaireDeContact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 99;
+  width: 100%;
+  height: auto;
+  border-top: 3px solid rgb(34, 37, 21);
+  background: linear-gradient(
+    90deg,
+    rgba(13, 14, 9, 0.958420868347339) 40%,
+    rgba(10, 20, 22, 1) 100%
+  );
+  background: rgb(13, 14, 9);
+  background: linear-gradient(
+    130deg,
+    rgba(13, 14, 9, 0.958420868347339) 40%,
+    rgba(10, 20, 22, 1) 100%
+  );
+}
+.FormulaireDeContact h2 {
+  text-align: center;
+}
+.inputmail {
+  border: none;
+  border-bottom: 2px solid #c4c4c448;
+  display: block;
+  width: 100%;
+  height: 43px;
+  font-size: 15px;
+  background: none;
+}
+label {
+  font-family: "Space Grotesk", "sans-serif";
+  /* display: inline-block; */
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 200px;
+  height: 36px;
+  line-height: 50px;
+  font-size: 30px;
+  color: #ffffff;
+}
+form .boutons {
+  margin-top: 40px;
 }
