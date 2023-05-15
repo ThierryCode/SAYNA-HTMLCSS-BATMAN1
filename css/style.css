@@ -500,3 +500,38 @@ form p {
 .lastPara p {
 }
 /*-----------Fin section Réplique -------------*/
+/* ------------------Footer ------------*/
+footer {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #000000;
+}
+.warnerBros {
+  margin: 10px;
+}
+.warnerBrosLastPara {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.warnerBrosLastPara p {
+  font-family: "Space Grotesk", "sans-serif";
+  font-size: 15px;
+  color: #c4c4c448;
+}
+.Icones {
+  width: 20%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+}
