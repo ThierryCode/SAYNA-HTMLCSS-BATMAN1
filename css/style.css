@@ -20,6 +20,11 @@
   right: 7.5%;
   border-left: 4px solid #c4c4c448;
 }
+.hr {
+  width: 85%;
+  height: 4px;
+  background-color: #c4c4c448;
+}
 .header {
   width: 100%;
   height: 100vh;
@@ -123,10 +128,6 @@
   height: 2px;
   background-color: #f1f1f1;
   transition: all 0.2s ease-in-out;
-}
-hr {
-  width: 85%;
-  border: 2px solid #c4c4c448;
 }
 .intro {
   /* background-color: aquamarine; */
@@ -560,4 +561,7 @@ footer {
 .Icones img:hover {
   filter: brightness(0) saturate(100%) invert(88%) sepia(44%) saturate(1037%)
     hue-rotate(356deg) brightness(107%) contrast(106%);
+}
+/*--------------------------------------------------Partie responsive --------------------------------------*/
+@media screen and (max-width=1900px) {
 }
