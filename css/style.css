@@ -77,20 +77,20 @@
   list-style: none;
 }
 .menu li {
-  padding: 30px 0px 30px;
+  /* padding: 30px 0px 30px; */
   display: block;
-  text-align: center;
+  align-items: center;
   line-height: 100%;
+  margin: 0 20px;
 }
-.menu a {
-  text-align: end;
+.itemNav a {
+  align-items: center;
   line-height: 100%;
   color: #ffffff;
   font-size: 36px;
   font-weight: bold;
   font-family: "Rajdhani";
   text-decoration: none;
-  margin: 0 5px;
 }
 .itemNav a::after {
   content: "";
@@ -109,7 +109,7 @@
   content: "";
   display: block;
   margin: 0 0;
-  width: 110%;
+  width: 100%;
   height: 2px;
   background-color: #f1f1f1;
   transition: all 0.2s ease-in-out;
@@ -119,7 +119,7 @@
   display: block;
   margin-top: 0;
   margin: 0 0;
-  width: 110%;
+  width: 100%;
   height: 2px;
   background-color: #f1f1f1;
   transition: all 0.2s ease-in-out;
